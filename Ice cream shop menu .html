@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Ice Cream Shop Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            text-align: center;
+            color: #004d40;
+        }
+
+        h1 {
+            color: #00897b;
+            font-size: 36px;
+        }
+
+        h1+p {
+            color: #00695c;
+            font-weight: bold;
+            background-color: #b2dfdb;
+            border-radius: 10px;
+            padding: 8px;
+        }
+
+        .shop-description::first-letter {
+            font-size: 36px;
+            color: #00acc1;
+            font-weight: bold;
+        }
+
+        .menu-box {
+            width: 420px;
+            background-color: white;
+            border: 3px solid #26a69a;
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul>li {
+            list-style: none;
+            background-color: #e0f2f1;
+            color: #004d40;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+            padding: 12px;
+            border-radius: 10px;
+            border: 2px solid #80cbc4;
+        }
+
+        ul>li:nth-child(3) {
+            background-color: #ffecb3;
+            color: #ff6f00;
+            border: 3px solid #ffb300;
+        }
+
+        ul>li:hover {
+            background-color: #26a69a;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: #00897b;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Frosty Scoop Parlour</h1>
+    <p>Scoops of pure happiness!</p>
+    <p class="shop-description">
+        We whip up ice-cold, creamy, and delightful artisan treats every single day.
+    </p>
+    <div class="menu-box">
+        <h2>Signature Ice Cream Flavours</h2>
+        <ul>
+            <li>Mint Choc Chip</li>
+            <li>Cookies & Cream</li>
+            <li>Golden Butterscotch - Today's Special</li>
+            <li>Rocky Road Crunch</li>
+            <li>Zesty Lemon Sorbet</li>
+        </ul>
+        <button>Grab a Scoop</button>
+    </div>
+</body>
+
+</html>
